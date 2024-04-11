@@ -13,6 +13,8 @@
 		B75CB6362BC4CF2A009A511A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75CB6352BC4CF2A009A511A /* Preview Assets.xcassets */; };
 		B75CB6402BC50BF8009A511A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB63F2BC50BF8009A511A /* PostModel.swift */; };
 		B75CB6422BC50D83009A511A /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB6412BC50D83009A511A /* PostViewModel.swift */; };
+		B75CB6442BC79C93009A511A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB6432BC79C93009A511A /* Login.swift */; };
+		B75CB6462BC79CD6009A511A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB6452BC79CD6009A511A /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B75CB6352BC4CF2A009A511A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B75CB63F2BC50BF8009A511A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		B75CB6412BC50D83009A511A /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		B75CB6432BC79C93009A511A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B75CB6452BC79CD6009A511A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		B75CB63D2BC4D5EB009A511A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B75CB6432BC79C93009A511A /* Login.swift */,
+				B75CB6452BC79CD6009A511A /* Home.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,8 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75CB6422BC50D83009A511A /* PostViewModel.swift in Sources */,
+				B75CB6442BC79C93009A511A /* Login.swift in Sources */,
 				B75CB6312BC4CF25009A511A /* ContentView.swift in Sources */,
 				B75CB6402BC50BF8009A511A /* PostModel.swift in Sources */,
+				B75CB6462BC79CD6009A511A /* Home.swift in Sources */,
 				B75CB62F2BC4CF25009A511A /* JSONApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

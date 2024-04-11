@@ -11,10 +11,6 @@ class PostViewModel: ObservableObject {
     
     @Published var authenticated = 0
     
-    init() {
-        login(email: "eve.holt@reqres.in", password: "cityslicka")
-    }
-    
     func login(email: String, password: String){
         guard let url = URL(string: "https://reqres.in/api/login") else { return }
         let parametros = ["email":email,"password":password]
