@@ -31,7 +31,7 @@ struct Login: View {
                 }
             }.padding()
 
-        }.padding()
+        }
     }
 }
 

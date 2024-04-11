@@ -30,6 +30,7 @@ class PostViewModel: ObservableObject {
                 let datos = try JSONDecoder().decode(PostModel.self, from: data)
                 if !datos.token.isEmpty{
                     DispatchQueue.main.async {
+                        print("Token:", datos.token)
                         self.authenticated = 1
                     }
                 }
