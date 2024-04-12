@@ -11,6 +11,14 @@ class PostViewModel: ObservableObject {
     
     @Published var authenticated = 0
     
+    init() {
+        if let sesion = UserDefaults.standard.object(forKey: "sesion") as? Int{
+            authenticated = sesion
+        }else{
+            authenticated = 0
+        }
+    }
+    
     func login(email: String, password: String){
         guard let url = URL(string: "https://reqres.in/api/login") else { return }
         let parametros = ["email":email,"password":password]
@@ -32,6 +40,7 @@ class PostViewModel: ObservableObject {
                     DispatchQueue.main.async {
                         print("Token:", datos.token)
                         self.authenticated = 1
+                        UserDefaults.standard.setValue(1, forKey: "sesion")
                     }
                 }
             }catch let error as NSError{
