@@ -19,7 +19,6 @@ struct Home: View {
                     login.authenticated = 0
                     UserDefaults.standard.removeObject(forKey: "sesion")
                     
-                    
                 }){
                     Text("Salir")
                 },trailing:  Button(action:{
