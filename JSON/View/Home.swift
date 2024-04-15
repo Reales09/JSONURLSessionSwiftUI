@@ -34,12 +34,11 @@ struct Home: View {
                         
                     }){
                         Text("Salir")
-                    },trailing:  Button(action:{
-                        //
-                    }){
-                        Text("Siguiente")
-                    })
-            }
+                    },trailing:
+                    NavigationLink(destination: Home2()){
+                    Text("Siguiente")
+                }
+            )}
 
         }
     }
