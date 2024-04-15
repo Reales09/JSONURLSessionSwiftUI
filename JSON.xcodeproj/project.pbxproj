@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7341EE82BCCE8F90008218B /* Modelo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7341EE72BCCE8F90008218B /* Modelo1.swift */; };
 		B75CB62F2BC4CF25009A511A /* JSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB62E2BC4CF25009A511A /* JSONApp.swift */; };
 		B75CB6312BC4CF25009A511A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75CB6302BC4CF25009A511A /* ContentView.swift */; };
 		B75CB6332BC4CF2A009A511A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75CB6322BC4CF2A009A511A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7341EE72BCCE8F90008218B /* Modelo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo1.swift; sourceTree = "<group>"; };
 		B75CB62B2BC4CF25009A511A /* JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75CB62E2BC4CF25009A511A /* JSONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONApp.swift; sourceTree = "<group>"; };
 		B75CB6302BC4CF25009A511A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B75CB63F2BC50BF8009A511A /* PostModel.swift */,
+				B7341EE72BCCE8F90008218B /* Modelo1.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				B75CB6442BC79C93009A511A /* Login.swift in Sources */,
 				B75CB6312BC4CF25009A511A /* ContentView.swift in Sources */,
 				B75CB6402BC50BF8009A511A /* PostModel.swift in Sources */,
+				B7341EE82BCCE8F90008218B /* Modelo1.swift in Sources */,
 				B75CB6462BC79CD6009A511A /* Home.swift in Sources */,
 				B75CB62F2BC4CF25009A511A /* JSONApp.swift in Sources */,
 			);
