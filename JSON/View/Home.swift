@@ -20,6 +20,10 @@ struct Home: View {
                     VStack(alignment: .leading){
                         Text(item.name)
                         Text(item.email)
+                        Text(item.address.street)
+                        Text(item.address.geo.lat)
+                        Text(item.address.geo.lng)
+
                     }
                     
                 } .navigationBarTitle("JSON")
